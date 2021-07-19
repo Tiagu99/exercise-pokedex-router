@@ -1,14 +1,17 @@
-import React from "react";
-import "./button.css";
+import React from 'react';
 
-const Button = ({ className, children, disabled, onClick }) => (
-  <button
-    onClick={onClick}
-    className={`button-text ${className}`}
-    disabled={disabled}
-  >
-    {children}
-  </button>
-);
+class Button extends React.Component {
+  render() {
+    const { className, clickFunction, disable, children } = this.props;
+    return(
+      <button 
+      className= { `button-text ${className}` }
+      onClick= { clickFunction }
+      disabled = { disable }>
+        { children }
+      </button>
+    )
+  }
+}
 
 export default Button;
