@@ -8,7 +8,7 @@ const pokemons = [
           measurementUnit: "kg"
       },
       image: "https://cdn2.bulbagarden.net/upload/b/b2/Spr_5b_025_m.png",
-      moreInfo: "https://bulbapedia.bulbagarden.net/wiki/Pikachu_(Pok%C3%A9mon)"
+      moreInfo: "Pikachu (Japanese: ピカチュウ Pikachu) is an Electric-type Pokémon introduced in Generation I. It evolves from Pichu when leveled up with high friendship and evolves into Raichu when exposed to a Thunder Stone."
   },
   {
       id: 4,
