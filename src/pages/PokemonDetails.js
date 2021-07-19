@@ -1,5 +1,5 @@
 import React from 'react';
-import pokemons from './data';
+import pokemons from '../data';
 
 class PokemonDetails extends React.Component {
   constructor() {

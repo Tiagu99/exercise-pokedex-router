@@ -1,7 +1,7 @@
 import React from 'react';
-import pokemons from './data';
-import Pokemon from './Pokemon';
-import Button from './Button';
+import pokemons from '../data';
+import Pokemon from '../components/Pokemon';
+import Button from '../components/Button';
 
 class Pokedex extends React.Component {
   constructor() {
