@@ -54,6 +54,7 @@ class Pokedex extends React.Component {
 		const pokemon = filterPokemons[this.state.pokemonPosition];
     return (
 			<div className="pokedex">
+				<h1> My Pokedex </h1>
       	<Pokemon key={pokemon.id} pokemon={pokemon} />
 			<div className="button-container">
 				<Button 
